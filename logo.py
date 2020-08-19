@@ -3,7 +3,7 @@ from p5 import *
 l = 50
 w = l # until debug
 d = 5
-c = 10
+c = 0
 c_offset = 0
 
 L = 4*l + 4*d
@@ -33,6 +33,7 @@ def draw():
     #     square((x*w+(1+x)*d, d), w)
     #     for y in range(0, int(L/l)):
     #         square((x*w+(1+x)*d, d), w)
+    save(filename='logo.png')
 
 if __name__ == '__main__':
     run()
