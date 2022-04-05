@@ -2,7 +2,7 @@ from p5 import *
 
 l = 50
 w = l # until debug
-d = 5
+d = 10
 c = 0
 c_offset = 0
 
